@@ -1,7 +1,9 @@
+/*for development*/
 div {
   border: 1px solid black;
 }
 
+/*header*/
 .header {
   display: flex;
   font-family: Verdana;
@@ -37,4 +39,27 @@ div {
 
 a {
   color: black;
+}
+
+/*main container*/
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding-top: 25px;
+}
+
+.column.large {
+  width: 630px;
+  height: auto;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+  padding: -10px 0px;
 }
