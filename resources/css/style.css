@@ -1,0 +1,40 @@
+div {
+  border: 1px solid black;
+}
+
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  align-items: center;
+}
+
+.headlogo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.headlogo h3 {
+  color: MediumAquamarine;
+  margin-left: 20px;
+}
+
+.header ul {
+  margin-top: 20px;
+  align-items: right;
+}
+
+.header li {
+  display: inline-flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding: 0px 20px;
+}
+
+a {
+  color: black;
+}
