@@ -126,3 +126,39 @@ a {
 .orca_earth {
   margin-right: 20px;
 }
+
+.footer {
+  display:flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer h3 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  flex-grow: 1;
+  padding-right: 25px;
+}
+
+.footlist {
+  display: flex;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer li {
+  display: inline-flex;
+  margin-top: 5px;
+  padding-right: 25px;
+}
